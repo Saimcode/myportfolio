@@ -1,0 +1,96 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Square+Peg&display=swap");
+/*--------------------------------------------------------------
+# BASICS
+--------------------------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background: #5bbf9b;
+  color: white;
+}
+
+*::selection {
+  background: #5bbf9b;
+  color: white;
+}
+
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #3cb358;
+  background-image: linear-gradient(45deg, #6bdcb1 0%, #6ed486 100%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.14);
+  z-index: 1;
+}
+
+a {
+  padding: 1rem 1.5rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #3cb358;
+  text-decoration: none;
+  font-size: 1.2rem;
+  -webkit-transition: .1s;
+  transition: .1s;
+  text-align: center;
+  z-index: 10;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+a:hover {
+  background-color: #85ffa1;
+  background-image: linear-gradient(45deg, #6bdcb1 0%, #6ed486 100%);
+  color: #fff;
+}
+
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+/*# sourceMappingURL=styles.css.map */
